@@ -1,9 +1,11 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import logo from '../../public/next.svg'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const Navbar = () => {
+  const [value , setValue] = useState('')
   return (
     <>
       <nav className='bg-white py-[22px] lg:block hidden'>
